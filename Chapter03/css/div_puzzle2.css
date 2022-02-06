@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.red-box {
+  height: 100px;
+  width: 400px;
+  background: #ff0000;
+}
+
+
+.green-box {
+  height: 250px;
+  width: 150px;
+  background: #00ff51;
+  float: left;
+}
+
+.center {
+  width: 250;
+  float: left;
+}
+
+.center2 {
+  width: 150px;
+  float: left;
+}
+
+.purple-box {
+  height: 50px;
+  width: 150px;
+  background: #cc00db;
+}
+
+.blue-box {
+  height: 100px;
+  width: 150px;
+  background: #0093b7;
+}
+
+.orange-box {
+  height: 150px;
+  width: 100px;
+  background: #ff9e6b;
+  float: left;
+}
+
+.brown-box {
+  height: 100px;
+  width: 250px;
+  background: #8c2727;
+}
+
+.yellow-box {
+  height: 100px;
+  width: 400px;
+  background: #fff700;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.red-box {
+  height: 100px;
+  width: 400px;
+  background: #ff0000;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.green-box {
+  height: 250px;
+  width: 150px;
+  background: #00ff1e;
+  float: left;
+}
+
+.blue-box {
+  height:250px;
+  width: 250px;
+  background: #3300ff;
+  float: left;
+}
+
+.yellow-box {
+  height: 100px;
+  width: 400px;
+  background: #ffe600;
+}

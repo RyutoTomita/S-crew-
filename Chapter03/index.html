@@ -3,15 +3,77 @@
   <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    
+    <!-- htmlにstyleタグを作って書く -->
+    <style>
+      h2 {
+        color: blue;
+      }
+    </style>
+
+    <!-- cssファイルを読み込んで書く -->
+    <link rel="stylesheet" href="./css/style.css">
   </head>
+
   <body>
-    <h1>１番目の見出し</h1>
-    <h2>２番目の見出し</h2>
-    <h3>３番目の見出し</h3>
-    <h4>４番目の見出し</h4>
-    <h5>５番目の見出し</h5>
-    <h6>６番目の見出し</h6>
-  
+    <header>
+      <!-- htmlに直接cssを書く(red) -->
+      <h1 style="color: red;">headerタグ</h1>
+      <p>
+        文書やセクションの冒頭となる見出しや概要を記載する。<br>
+        トップページならロゴ等。検索フォームやナビゲーションメニューも含む。
+      </p>
+
+      <nav>
+      <h2>navタグ</h2>
+      <p>ページ内の他の部分や文章へのナビゲーションを提供するためのセクション。</p>
+        <ul>
+          <li>メニュー</li>
+          <li>目次</li>
+          <li>索引 etc...</li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h3>mainタグ</h3>
+        <p>
+          ページの主要部分。<br>
+          Webサイト内の各ページで繰り返し使われるヘッダーやナビゲーション、
+          検索フォームやフッター情報などを除いた、そのページ内の主な内容。
+        </p>
+      <article>
+        <h4>articleタグ</h4>
+          <p>その部分だけで完結している内容に使う</p>
+      </article>
+      <section>
+        <!-- id名とclass名 -->
+        <div id="section-area">
+          <h4>sectionタグ</h4>
+            <p class="text-orange">
+              文章の自立した節や章に使う。必ずh1~h6の見出しタグを挿入する。<br>
+              articleよりも独立していない場合にsectionを使用。
+            </p>
+        </div>
+        <div>
+          <h4>divタグ</h4>
+          <p>
+            区切りを意味する。この要素ないだけでは特に意味を持たない。<br>
+            デザインやレイアウトを行う際に範囲を作成したい時に使う。<br>
+            ひとかたまりの範囲としての定義。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <h5>asideタグ</h5>
+      <p>メインとは関係のない、脚注や用語の説明等の補足情報に使う。</p>
+    </aside>
+    <footer>
+    <h6>footerタグ</h6>
+      <p>誰が書いたのか、関連文書へのリンク、著作権の情報等が含まれる。</p>
+  </footer>
 
       <!-- 大見出し -->
 
@@ -33,6 +95,14 @@
       <!-- リンクの貼り付け -->
       <a href="https://www.google.com" target="_blank">Google</a>
 
+
+
+    <!-- HTML -->
+  <div class="flex">
+    <div class="red--box"></div>
+    <div class="green--box"></div>
+  </div>
+    <div class="gray--box"></div>
 
   </body>
 </html>
