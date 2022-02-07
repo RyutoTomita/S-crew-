@@ -7,16 +7,16 @@ clearfix::after {
 }
 
 #body {
-  height: 450px;
   width: 400px;
+  height: 450px;
 }
 
 /* header
 ------------------------ */
 
 .red-box {
-  height: 100px;
   width: 400px;
+  height: 100px;
   background: #ff0000;
 }
 
