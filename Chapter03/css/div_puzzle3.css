@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#body {
+  height: 450px;
+  width: 400px;
+}
+
+/* header
+------------------------ */
+
+.red-box {
+  height: 100px;
+  width: 400px;
+  background: #ff0000;
+}
+
+.purple-boxes {
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  width: 150px;
+  height: 40px;
+  background: #ffff;
+  padding: 10px 0 10px 10px;
+}
+
+.purple-box {
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  float: left;
+  margin: 0 10px 0 0;
+  float: left
+}
+
+/* main
+------------------------ */
+
+.green-box {
+  width: 150px;
+  height: 250px;
+  background: #00ff51;
+  float: left;
+}
+
+.brown-box {
+  width: 250px;
+  height: 250px;
+  background: brown;
+  float: left;
+}
+
+.orange-box {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 140px;
+  height: 40px;
+  background: #ff863f;
+  border: solid 5px #ffff;
+  margin: 0 0 10px 0;
+}
+
+/* footer
+------------------------ */
+
+.yellow-box {
+  width: 400px;
+  height: 100px;
+  background: #fff700;
+}
