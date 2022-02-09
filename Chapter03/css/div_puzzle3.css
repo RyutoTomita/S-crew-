@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-clearfix::after {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-#body {
+body {
   width: 400px;
   height: 450px;
 }
@@ -36,7 +36,6 @@ clearfix::after {
   background: #a9004b;
   float: left;
   margin: 0 10px 0 0;
-  float: left
 }
 
 /* main
